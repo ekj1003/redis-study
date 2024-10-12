@@ -1,9 +1,8 @@
-package com.sparta.redis.controller;
+package com.sparta.redis.domain.controller;
 
-import com.sparta.redis.dto.MemoRequsetDto;
-import com.sparta.redis.dto.MemoResponseDto;
-import com.sparta.redis.repository.MemoRepository;
-import com.sparta.redis.service.MemoService;
+import com.sparta.redis.domain.dto.MemoRequsetDto;
+import com.sparta.redis.domain.dto.MemoResponseDto;
+import com.sparta.redis.domain.service.MemoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

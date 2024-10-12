@@ -1,8 +1,7 @@
-package com.sparta.redis.repository;
+package com.sparta.redis.domain.repository;
 
-import com.sparta.redis.entity.Memo;
+import com.sparta.redis.domain.entity.Memo;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 public interface MemoRepository extends JpaRepository<Memo, Long> {
 }

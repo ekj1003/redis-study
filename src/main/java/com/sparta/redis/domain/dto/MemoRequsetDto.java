@@ -1,4 +1,4 @@
-package com.sparta.redis.dto;
+package com.sparta.redis.domain.dto;
 
 import lombok.Getter;
 

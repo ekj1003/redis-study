@@ -1,6 +1,6 @@
-package com.sparta.redis.dto;
+package com.sparta.redis.domain.dto;
 
-import com.sparta.redis.entity.Memo;
+import com.sparta.redis.domain.entity.Memo;
 import lombok.Getter;
 
 @Getter
